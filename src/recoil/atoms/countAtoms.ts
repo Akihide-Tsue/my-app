@@ -3,7 +3,7 @@ import { atom } from "recoil";
 // const { persistAtom } = recoilPersist();
 
 export const countAtoms = atom<number>({
-  key: "countAtomsKey",
+  key: "countAtomsKey",//ユニークなら何でも良い
   default: 0,
   // effects_UNSTABLE: [persistAtom], //この1行を加えるだけで、ローカルストレージに保存されるようになる
 });

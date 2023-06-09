@@ -4,7 +4,7 @@ import { FC } from "react";
 import { useRecoilState } from "recoil";
 
 const Button: FC = ({}) => {
-  const [count, setCount] = useRecoilState<number>(countAtoms);
+  const [count, setCount] = useRecoilState(countAtoms);
 
   return (
     <button

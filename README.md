@@ -16,5 +16,6 @@ const [count, setCount] = useRecoilState<number>(countAtoms);
 ## localStorageにstateを保持したい場合
 `countAtoms.ts`に` effects_UNSTABLE: [persistAtom]`の1行を加えるだけでOK。
 
+---
 https://github.com/Akihide-Tsue/my-app/assets/56462284/1b44e356-dce7-48ce-a1b3-996b095ca2dc
 

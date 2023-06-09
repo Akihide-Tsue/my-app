@@ -4,7 +4,7 @@ import { FC } from "react";
 import { useRecoilValue } from "recoil";
 
 const Counter: FC = ({}) => {
-  const count = useRecoilValue<number>(countAtoms);
+  const count = useRecoilValue(countAtoms);
 
   return <>{count}</>;
 };
